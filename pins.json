@@ -1,0 +1,1699 @@
+{
+    "pins": [
+      {
+        "lat": 25.437576, 
+        "lng": 51.520764,
+        "title": "Voya",
+        "image": "images/voya.png",
+        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,390,000</li><li><strong>2 BDR:</strong> QAR 1,970,000</li> <li><strong>3 BDR:</strong> QAR 3,100,000</li> <li><strong>4 BDR:</strong> QAR 6,470,000</li> </ul>",
+        "landmarks": "Within few steps to Waterfront Beach and a short drive to Meryal Water Park, Lusail Stadium, Boulevard Street and Vendome Mall.",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XonyMAC/view",
+        "type": "sale"
+      } ,
+      
+      {
+        "lat": 25.322557,
+        "lng": 51.456031,
+        "title": "Vita",
+        "image": "images/vita.png",
+        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>6 BDR + Maidroom:</strong> QAR 4,394,3769</li></ul>",
+        "landmarks": "Perfectly placed just 7 mins away from Education City, close to Sidra Medicine, Qatar Foundation, multiple malls (such as Q Mall, Ezdan Mall, Gulf Mall & Landmark Mall) with a nearby metro station.",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XnV3MAK/view",
+        "type": "sale"
+      },
+
+      {
+        "lat": 25.414053,
+        "lng": 51.426967,
+        "title": "The Grid",
+        "image": "images/thegrid.png",
+        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>5 BDR + Maidroom:</strong> QAR 4,530,113</li></ul>",
+        "landmarks": "The Grid offers standalone villas with private pools and gardens in a gated community just minutes away from Doha Festival City Mall. These villas are modern in design and tailored for families, conveniently located on Shamal Road, providing easy access to Doha via the nearby Expressway",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XnU5MAK/view",
+        "type": "sale"
+      },
+      {
+        "lat": 25.423827, 
+        "lng": 51.507667,
+        "title": "Seef",
+        "image": "images/seef.png",
+        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,390,000</li><li><strong>2 BDR:</strong> QAR 1,970,000</li> <li><strong>3 BDR:</strong> QAR 3,100,000</li> <li><strong>4 BDR:</strong> QAR 6,470,000</li> </ul>",
+        "landmarks": "",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XontMAC/view",
+        "type": "sale"
+      },
+      {
+        "lat": 25.396172, 
+        "lng": 51.520214,
+        "title": "Marina 25",
+        "image": "images/25marina.jpg",
+        "price": "",
+        "landmarks": "",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XnUZMA0/view",
+        "type": "sale"
+      },
+      {
+        "lat": 25.393547,
+        "lng": 51.523993,
+        "title": "Marina 12",
+        "image": "images/12marina.jpg",
+        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>2 BDR:</strong> QAR 2,690,088</li>",
+        "landmarks": "Walking distance from metro link and Lusail Marina Corniche",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XnUeMAK/view",
+        "type": "sale"
+      },
+
+      {
+        "lat": 25.394293, 
+        "lng": 51.522304,
+        "title": "Marina 09",
+        "image": "images/marina09.jpg",
+        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,369,271</li><li><strong>2 BDR:</strong> QAR 1,816,647</li><li><strong>3 BDR:</strong> QAR 2,153,414</li>",
+        "landmarks": "Conveniently located near the Tram Metro Station, Lusail Marina, coffee shops, and restaurants, the property is just 5 minutes from Vendome Mall, 7 minutes from The Pearl, and 10 minutes to Doha West Bay.",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000Ixw52AC/view",
+        "type": "sale"
+      },
+      {
+        "lat": 25.4115520, 
+        "lng": 51.5027157,
+        "title": "Le Mirage Vida",
+        "image": "images/vida.jpg",
+        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,133,734</li><li><strong>2 BDR:</strong> QAR 2,147,149</li><li><strong>3 BDR:</strong> QAR 2,895,216</li>",
+        "landmarks": "Next to Lusail Boulevard and Tram Station",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XoC9MAK/view",
+        "type": "sale"
+      },
+      {
+        "lat": 25.411550, 
+        "lng": 51.502519,
+        "title": "Le Mirage Hills",
+        "image": "images/hills.jpg",
+        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,487,538</li><li><strong>2 BDR:</strong> QAR 2,915,760</li>",
+        "landmarks": "Next to Lusail Boulevard and Tram Station",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XoC9MAK/view",
+        "type": "sale"
+      },
+      {
+        "lat": 25.411550, 
+        "lng": 51.502519,
+        "title": "Bliss Residence",
+        "image": "images/bliss.jpg",
+        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,112,003</li><li><strong>2 BDR:</strong> QAR 1,875,207</li><li><strong>3 BDR:</strong> QAR 1,966,695</li>",
+        "landmarks": "Prime location near Lusail Boulevard, Place Vendome, Family Park, and easy access to Lusail Expressway",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000pQLS2A2/view",
+        "type": "sale"
+      },
+      {
+        "lat": 25.398882,  
+        "lng": 51.503988,
+        "title": "Apex Lusail Commercial Complex",
+        "image": "images/apex.jpg",
+        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>QAR 1,650,000</strong> ",
+        "landmarks": "Located in Energy City, Lusail, offering convenient access to major roads, Place Vendôme Mall, Lusail Expressway, the Tram Station, and Al Khor Coastal Road​.",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000odB32AI/view",
+        "type": "sale"
+      },
+      {
+        "lat": 25.333780,   
+        "lng": 51.528239,
+        "title": "35 WestBay Luxury Apartments",
+        "image": "images/35westbay.jpg",
+        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,620,000</li><li><strong>2 BDR:</strong> QAR 2,315,000</li><li><strong>3 BDR:</strong> QAR 3,374,000</li>",
+        "landmarks": "Easy access to major roads, including Corniche Street and the Lusail Expressway. Located in West Bay",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000GZ3R2AW/view",
+        "type": "sale"
+      },
+      {
+        "lat": 25.274558,
+        "lng": 51.532055,
+        "title": "A&H Doha Jadeed Building 157",
+        "image": "images/A&H Doha Jadeed Building 157.jpg",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 4,500</li></ul>",
+        "landmarks": "Apartment for Rent in Doha Jadeed, conveniently located near Lulu Express and with quick access to main road.",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000dyM52AI/view",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.266185,
+        "lng": 51.525654,
+        "title": "A&H Hotel Apartments",
+        "image": "images/A&H Hotel Apartments.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 6,000</li></ul>",
+        "landmarks": "The building is strategically located in Al Mansoura.",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XokaMAC/view",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.287955,
+        "lng": 51.52487,
+        "title": "A10 Msheireb Downtown",
+        "image": "images/A10 Msheireb Downtown.jpg",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>5:</strong> QAR 35,000</li></ul>",
+        "landmarks": "Perfectly situated walking distance from Barahat Msheireb, Monoprix, Souq Waqif, Al Bidda Grand Park, MIA Park, Mina District, Msheireb Central Station and Galleria Mall, offering a prime location in Doha’s most prestigious neighborhood",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000RPOv2AO/view",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.4107949,
+        "lng": 51.5009869,
+        "title": "A14 Fox Hills",
+        "image": "images/A14 Fox Hills.jpg",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 6,500</li></ul>",
+        "landmarks": "Located just minutes from Lusail Boulevard and Crescent Park.",
+        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000NYgv2AG/view",
+        "type": "thirdparty"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "A2A Dara Fox Hills",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 5,200</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.372844,
+        "lng": 51.559838,
+        "title": "AP29 Building Westpac",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 9,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "Aayan Real Estate",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.266322,
+        "lng": 51.526388,
+        "title": "Abraj Inn - Al Mansoura",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 5,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.407121,
+        "lng": 51.522228,
+        "title": "Agora An Autograph Collection Hotel",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 9,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.23113,
+        "lng": 51.442309,
+        "title": "Al Ain Gardens",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 13,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.250212,
+        "lng": 51.550583,
+        "title": "Al Darwish Building 51",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,750</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.265659,
+        "lng": 51.528048,
+        "title": "Al Darwish Mansoura Building 13",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.323782,
+        "lng": 51.531342,
+        "title": "Al Jazeera Tower",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 16,500</li><li><strong>Unknown BDR:</strong> QAR 33,000</li><li><strong>Unknown BDR:</strong> QAR 70,000</li><li><strong>Unknown BDR:</strong> QAR 6,500</li><li><strong>Unknown BDR:</strong> QAR 28,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.270671,
+        "lng": 51.437481,
+        "title": "Al Mana Hills Compound",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>5:</strong> QAR 12,857</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.271022,
+        "lng": 51.4952,
+        "title": "Al Mana Residence",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 6,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.264975,
+        "lng": 51.524182,
+        "title": "Al Mansour Hotel & Suite",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 5,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.26609,
+        "lng": 51.545343,
+        "title": "Al Mansour Park Inn Hotel & Apartment",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 5,000</li><li><strong>2:</strong> QAR 6,000</li><li><strong>Studio:</strong> QAR 4,800</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.335727,
+        "lng": 51.5066149,
+        "title": "Al Markhiya Villas (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>6:</strong> QAR 32,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "Al Mutahidah Tower",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 9,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2835665,
+        "lng": 51.5345429,
+        "title": "Al Najada Hotel",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,125</li><li><strong>2:</strong> QAR 10,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "Al Nasr 30 by J Seven",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 6,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3131911,
+        "lng": 51.5190332,
+        "title": "Al Nasr Tower A",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 14,529</li><li><strong>Unknown BDR:</strong> QAR 23,925</li><li><strong>Unknown BDR:</strong> QAR 18,966</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.271542,
+        "lng": 51.54335,
+        "title": "Al Nour Residence 4",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 65,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2766839,
+        "lng": 51.4960456,
+        "title": "Al Sadd 36 - AS1",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 6,500</li><li><strong>2:</strong> QAR 5,500</li><li><strong>3:</strong> QAR 6,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.4100331,
+        "lng": 51.5103486,
+        "title": "Al Tarfa - FH1",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 9,000</li><li><strong>3:</strong> QAR 8,250</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.165206,
+        "lng": 51.604923,
+        "title": "Al Wakra 29 - AW1",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "Al Wathna Retail Shops",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 10,200</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.368622,
+        "lng": 51.557201,
+        "title": "Aquastone Towers",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,914</li><li><strong>1:</strong> QAR 9,257</li><li><strong>1:</strong> QAR 9,771</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.39028,
+        "lng": 51.525958,
+        "title": "Beehive Office",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 5,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.2815594,
+        "lng": 51.5123643,
+        "title": "Bin Mahmoud (Dawodia)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 4,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2824511,
+        "lng": 51.5098998,
+        "title": "Bin Mahmoud 51 - BM1",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 6,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.3030917,
+        "lng": 51.4924633,
+        "title": "Bin Omran 28 - BO4",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "Bin Omran 35 - BO2",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.073606,
+        "lng": 51.493307,
+        "title": "Birkat Al Awamer Logistics Park Shop",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 3,500</li><li><strong>Unknown BDR:</strong> QAR 14,000</li><li><strong>Unknown BDR:</strong> QAR 3,800</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2677737,
+        "lng": 51.4986974,
+        "title": "Building 10 (Dawodia)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3210302,
+        "lng": 51.4762586,
+        "title": "Building 5 Madinat Khalifa",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 5,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.437576,
+        "lng": 51.520764,
+        "title": "Burj Damac Sea View (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 9,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.437576,
+        "lng": 51.520764,
+        "title": "Burj Damac Waterfront (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 10,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3053409,
+        "lng": 51.4323947,
+        "title": "C View Residence",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 9,000</li><li><strong>2:</strong> QAR 12,000</li><li><strong>3:</strong> QAR 16,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2773446,
+        "lng": 51.5311436,
+        "title": "CAP110DJ Capital One",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 4,600</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2773446,
+        "lng": 51.5337185,
+        "title": "CAP120DJ Capital One",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 4,600</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3046207,
+        "lng": 51.4851218,
+        "title": "CAP39HTM Capital One",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 6,000</li><li><strong>2:</strong> QAR 6,900</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3764503,
+        "lng": 51.5414422,
+        "title": "Chateau (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 9,000</li><li><strong>1:</strong> QAR 7,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2716146,
+        "lng": 51.5264116,
+        "title": "Citi Villa",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.276826,
+        "lng": 51.516037,
+        "title": "City Walk",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,308</li><li><strong>2:</strong> QAR 10,615</li><li><strong>2:</strong> QAR 13,846</li><li><strong>3:</strong> QAR 17,538</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.195966,
+        "lng": 51.462624,
+        "title": "Crowne Plaza Doha - The Business Park (Hotel)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 7,500</li><li><strong>2:</strong> QAR 10,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.266505,
+        "lng": 51.525992,
+        "title": "D Villa Apartments",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2539097,
+        "lng": 51.529888,
+        "title": "D-Ring Commercial Building",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 125,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.425032,
+        "lng": 51.501528,
+        "title": "Dara",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 6,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.272391,
+        "lng": 51.510778,
+        "title": "Double Tree - The Eight Hotel",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 6,461</li><li><strong>2:</strong> QAR 8,538</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2546271,
+        "lng": 51.4762173,
+        "title": "Dream Casa Residence Al Waab",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 8,123</li><li><strong>2:</strong> QAR 6,923</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2708692,
+        "lng": 51.5194197,
+        "title": "Dream Residence 23",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 5,500</li><li><strong>3:</strong> QAR 6,000</li><li><strong>3:</strong> QAR 6,500</li><li><strong>3:</strong> QAR 6,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.282687,
+        "lng": 51.55022,
+        "title": "FJ Building 5",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3940001,
+        "lng": 51.5226974,
+        "title": "FJ9 Tower - Ramaco",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 10,500</li><li><strong>2:</strong> QAR 14,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.378283,
+        "lng": 51.537231,
+        "title": "Gewan Island",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,000</li><li><strong>1:</strong> QAR 9,000</li><li><strong>1:</strong> QAR 9,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.372217,
+        "lng": 51.560848,
+        "title": "Giardino 22 (Retaj)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 9,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.263274,
+        "lng": 51.528516,
+        "title": "Gold Building",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 5,700</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.228347,
+        "lng": 51.502391,
+        "title": "Gold Plaza",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 16,000</li><li><strong>Unknown BDR:</strong> QAR 12,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.268066,
+        "lng": 51.526849,
+        "title": "Golden Sand Mansoura Building 42",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 6,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.37532,
+        "lng": 51.524695,
+        "title": "Grand Hyatt Villas",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 27,000</li><li><strong>3:</strong> QAR 37,000</li><li><strong>4:</strong> QAR 65,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2855008,
+        "lng": 51.5280114,
+        "title": "I22 Msheireb Downtown",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,595</li><li><strong>1:</strong> QAR 9,750</li><li><strong>3:</strong> QAR 15,500</li><li><strong>2:</strong> QAR 10,935</li><li><strong>3:</strong> QAR 13,950</li><li><strong>3:</strong> QAR 15,800</li><li><strong>2:</strong> QAR 12,800</li><li><strong>2:</strong> QAR 11,520</li><li><strong>3:</strong> QAR 13,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.268066,
+        "lng": 51.526849,
+        "title": "Icono Residence 1 Building 40",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,200</li><li><strong>1:</strong> QAR 6,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.2694256,
+        "lng": 51.5313986,
+        "title": "Icono Residence 2 Building 12 Najma",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 4,500</li><li><strong>3:</strong> QAR 5,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.269004,
+        "lng": 51.523034,
+        "title": "Imperial Properties",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,000</li><li><strong>Unknown BDR:</strong> QAR 18,000</li><li><strong>2:</strong> QAR 8,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3210298,
+        "lng": 51.4659589,
+        "title": "J Seven Madinat Khalifa",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 6,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.265958,
+        "lng": 51.412108,
+        "title": "Jeera Residential Compound",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>5:</strong> QAR 18,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.279119,
+        "lng": 51.533562,
+        "title": "Jumeirah Tower",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 6,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.428703,
+        "lng": 51.502568,
+        "title": "Khulud Tower",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 9,692</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2510056,
+        "lng": 51.5620533,
+        "title": "La Casa Residences",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2867632,
+        "lng": 51.5118925,
+        "title": "La Maison Hotel",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.269281,
+        "lng": 51.442247,
+        "title": "La Verna Compound",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 9,785</li><li><strong>3:</strong> QAR 15,323</li><li><strong>2:</strong> QAR 9,086</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.286984,
+        "lng": 51.551057,
+        "title": "Le Mirage Corniche",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 9,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.281204,
+        "lng": 51.544087,
+        "title": "Le Mirage Downtown",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 7,714</li><li><strong>2:</strong> QAR 10,286</li><li><strong>3:</strong> QAR 11,571</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.278078,
+        "lng": 51.51566,
+        "title": "Le Mirage Icon",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 9,857</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.285472,
+        "lng": 51.514653,
+        "title": "Le Mirage Residence",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,385</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.255474,
+        "lng": 51.537125,
+        "title": "Le Mirage Village",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>4:</strong> QAR 14,769</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.39059,
+        "lng": 51.52462,
+        "title": "Le Royal Meridien Doha Hotel",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 11,500</li><li><strong>2:</strong> QAR 16,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.271542,
+        "lng": 51.54335,
+        "title": "Legends 2",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,000</li><li><strong>Unknown BDR:</strong> QAR 22,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.271542,
+        "lng": 51.54335,
+        "title": "Legends Suite Residence",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 6,500</li><li><strong>1:</strong> QAR 5,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.269281,
+        "lng": 51.442247,
+        "title": "Les Roses 3",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>5:</strong> QAR 18,857</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.268758,
+        "lng": 51.525844,
+        "title": "Lotus Apartment",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,400</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.277184,
+        "lng": 51.49544,
+        "title": "M Residence 1",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 8,000</li><li><strong>2:</strong> QAR 7,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.285499,
+        "lng": 51.510317,
+        "title": "M Residence 2",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 7,600</li><li><strong>1:</strong> QAR 5,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.24426,
+        "lng": 51.504725,
+        "title": "Makki Gardens 1 & 2",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 9,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.404495,
+        "lng": 51.522358,
+        "title": "Malibu Residence (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.39059,
+        "lng": 51.52462,
+        "title": "Mamsha Bay",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,750</li><li><strong>2:</strong> QAR 12,250</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2677,
+        "lng": 51.526734,
+        "title": "Mansoura 98 - M2",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 4,750</li><li><strong>2:</strong> QAR 6,500</li><li><strong>2:</strong> QAR 7,250</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.3940001,
+        "lng": 51.5226974,
+        "title": "Marina 09 - R09 Leasing",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 11,077</li><li><strong>2:</strong> QAR 10,500</li><li><strong>1:</strong> QAR 7,500</li><li><strong>1:</strong> QAR 8,307</li><li><strong>2:</strong> QAR 11,077</li><li><strong>1:</strong> QAR 7,385</li><li><strong>1:</strong> QAR 9,000</li><li><strong>1:</strong> QAR 8,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.3931581,
+        "lng": 51.5228304,
+        "title": "Marina 12 (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 10,000</li><li><strong>2:</strong> QAR 12,500</li><li><strong>2:</strong> QAR 10,500</li><li><strong>1:</strong> QAR 8,250</li><li><strong>1:</strong> QAR 9,000</li><li><strong>1:</strong> QAR 11,000</li><li><strong>1:</strong> QAR 8,750</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.392319,
+        "lng": 51.525515,
+        "title": "Marina 16",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 11,000</li><li><strong>3:</strong> QAR 13,000</li><li><strong>1:</strong> QAR 8,600</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.3906678,
+        "lng": 51.5171973,
+        "title": "Marina 2",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 12,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3960068,
+        "lng": 51.5200048,
+        "title": "Marina 25 (Leasing)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 28,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.39059,
+        "lng": 51.52462,
+        "title": "Marina 33 (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 25,000</li><li><strong>2:</strong> QAR 9,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.39059,
+        "lng": 51.52462,
+        "title": "Marina Mix",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 63,750</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.369379,
+        "lng": 51.5440053,
+        "title": "Marsa Arabia Island",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 20,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.375597,
+        "lng": 51.541627,
+        "title": "Mercato (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 10,000</li><li><strong>3:</strong> QAR 11,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.285611,
+        "lng": 51.525728,
+        "title": "Msheireb Downtown",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 13,200</li><li><strong>1:</strong> QAR 8,900</li><li><strong>3:</strong> QAR 12,920</li><li><strong>4:</strong> QAR 16,920</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.283913,
+        "lng": 51.525557,
+        "title": "Msheireb X03 Building",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Studio:</strong> QAR 8,150</li><li><strong>2:</strong> QAR 10,755</li><li><strong>1:</strong> QAR 9,350</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.270395,
+        "lng": 51.52112,
+        "title": "Muntazah 38 - MZ1",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 7,000</li><li><strong>2:</strong> QAR 8,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.384569,
+        "lng": 51.526282,
+        "title": "Murano Tower (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 8,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "Najma - COM1",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 9,000</li><li><strong>Unknown BDR:</strong> QAR 6,000</li><li><strong>Unknown BDR:</strong> QAR 7,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.270501,
+        "lng": 51.533495,
+        "title": "Najma - N1",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 6,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.270501,
+        "lng": 51.533495,
+        "title": "Najma - N1 & COM1",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 6,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.39059,
+        "lng": 51.52462,
+        "title": "Nayef Tower",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 11,077</li><li><strong>3:</strong> QAR 14,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3751888,
+        "lng": 51.5242612,
+        "title": "Nobili (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 7,800</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.276826,
+        "lng": 51.516037,
+        "title": "Nora Park Residence",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,708</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "Oasis Al Waab",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>5:</strong> QAR 13,292</li><li><strong>3:</strong> QAR 11,550</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.248812,
+        "lng": 51.556357,
+        "title": "Old Airport 16 - OA1",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 6,000</li><li><strong>2:</strong> QAR 5,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.249335,
+        "lng": 51.554083,
+        "title": "Old Airport 20 - OA6",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "Old Airport 39 - OA4",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.248812,
+        "lng": 51.556357,
+        "title": "Old Airport 43 - OA2",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.253251,
+        "lng": 51.553428,
+        "title": "Old Airport 47 - OA7",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 5,000</li><li><strong>Studio:</strong> QAR 3,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.425138,
+        "lng": 51.499764,
+        "title": "Palermo",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 8,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3182512,
+        "lng": 51.5243537,
+        "title": "Palm Tower B",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 14,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3750692,
+        "lng": 51.5439355,
+        "title": "Porto Arabia 03 (PA03 Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.371112,
+        "lng": 51.537479,
+        "title": "Porto Arabia 10 (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 10,000</li><li><strong>1:</strong> QAR 7,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.373425,
+        "lng": 51.544046,
+        "title": "Porto Arabia 14 (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,500</li><li><strong>2:</strong> QAR 11,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3686092,
+        "lng": 51.5309834,
+        "title": "Porto Arabia 19 (PA19 Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 7,500</li><li><strong>2:</strong> QAR 12,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.371112,
+        "lng": 51.537479,
+        "title": "Porto Arabia 24 (PA24 Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.363605,
+        "lng": 51.542622,
+        "title": "Porto Arabia 31 (PA31 Leasing)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 9,000</li><li><strong>2:</strong> QAR 15,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3710079,
+        "lng": 51.5384992,
+        "title": "Porto Arabia 6 (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 9,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.371112,
+        "lng": 51.537479,
+        "title": "Porto Arabia 7 (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 10,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "Porto Arabia 8 (Lease) - PA08",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 9,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.371112,
+        "lng": 51.537479,
+        "title": "Porto Arabia Tower 12 - Paramount",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 10,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.323782,
+        "lng": 51.531342,
+        "title": "Qabila WestBay Hotel",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Studio:</strong> QAR 6,300</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.427163,
+        "lng": 51.490765,
+        "title": "R46 Al Erkyah City (Leasing)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 8,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.39059,
+        "lng": 51.52462,
+        "title": "Rafal Tower",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 75,361</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.326216,
+        "lng": 51.532426,
+        "title": "Retaj West Bay",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>4:</strong> QAR 35,000</li><li><strong>2:</strong> QAR 10,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.276826,
+        "lng": 51.516037,
+        "title": "Riviera Residences",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,846</li><li><strong>3:</strong> QAR 9,230</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3906678,
+        "lng": 51.5171974,
+        "title": "Rosewood Residences Doha",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 16,000</li><li><strong>2:</strong> QAR 22,000</li><li><strong>3:</strong> QAR 28,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.4256446,
+        "lng": 51.501752,
+        "title": "Savoy Retail",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 11,700</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.4202125,
+        "lng": 51.5063792,
+        "title": "Seef Lusail (Leasing)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.410448,
+        "lng": 51.507809,
+        "title": "Seville Residence (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3035418,
+        "lng": 51.4962538,
+        "title": "Souq Waqif Properties",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 11,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.270461,
+        "lng": 51.54581,
+        "title": "Steigenberger Hotel and Residence",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 9,000</li><li><strong>3:</strong> QAR 12,000</li><li><strong>1:</strong> QAR 7,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.409014,
+        "lng": 51.50577,
+        "title": "Tadmur Holding HQ Building",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Unknown BDR:</strong> QAR 121,440</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.352207,
+        "lng": 51.433528,
+        "title": "Tala Residence",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 5,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.323782,
+        "lng": 51.531342,
+        "title": "The Bentley Luxury Hotel & Suites",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 9,000</li><li><strong>2:</strong> QAR 10,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.325767,
+        "lng": 51.540129,
+        "title": "The Curve Hotel",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Studio:</strong> QAR 7,000</li><li><strong>2:</strong> QAR 13,000</li><li><strong>1:</strong> QAR 10,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.2305792,
+        "lng": 51.5318119,
+        "title": "The Garden Villas (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>5:</strong> QAR 18,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.3629682,
+        "lng": 51.5582473,
+        "title": "Viva Bahirya 28 (VB28 Leasing)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 9,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.368622,
+        "lng": 51.557201,
+        "title": "Viva Bahriya 22 (VB22 Qatar Coral)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Studio:</strong> QAR 6,230</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.368622,
+        "lng": 51.557201,
+        "title": "Viva Bahriya 23 (Lease) - VB23",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 10,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.365058,
+        "lng": 51.559915,
+        "title": "Viva Bahriya 26 (Lease)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Studio:</strong> QAR 6,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.368622,
+        "lng": 51.557201,
+        "title": "Viva Bahriya 5",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 8,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3687231,
+        "lng": 51.5538004,
+        "title": "Viva Bahriya 6 (Regency Pearl 5)",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>Studio:</strong> QAR 6,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "WP169",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.3046207,
+        "lng": 51.4851191,
+        "title": "WPC 193 Bin Omran",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 5,000</li><li><strong>2:</strong> QAR 5,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.436246,
+        "lng": 51.518829,
+        "title": "Waterfront Hotel and Apartments",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>1:</strong> QAR 7,500</li><li><strong>2:</strong> QAR 11,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": null,
+        "lng": null,
+        "title": "West Bay Lagoon Compound 68",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>5:</strong> QAR 23,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.369969,
+        "lng": 51.5109622,
+        "title": "West Bay Lagoon Townhouse",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>6:</strong> QAR 25,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.34957,
+        "lng": 51.505869,
+        "title": "West Bay Villas",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>7:</strong> QAR 45,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "propertymanagement"
+      },
+      {
+        "lat": 25.25239,
+        "lng": 51.470247,
+        "title": "Westpac Al Waab WPC 183",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 7,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.332865,
+        "lng": 51.497743,
+        "title": "Westpac Markhiya 185",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>7:</strong> QAR 13,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.280996,
+        "lng": 51.494641,
+        "title": "Y Building 11",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>3:</strong> QAR 9,000</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.280996,
+        "lng": 51.494641,
+        "title": "Y Building 12",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 8,888</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      },
+      {
+        "lat": 25.39059,
+        "lng": 51.52462,
+        "title": "Y Tower 14",
+        "image": "images/placeholder.png",
+        "price": "<strong>Starting Price:</strong><br><ul><li><strong>2:</strong> QAR 13,500</li></ul>",
+        "landmarks": "Nearby landmarks not specified.",
+        "link": "#",
+        "type": "thirdparty"
+      }
+
+      
+    ]
+  }
