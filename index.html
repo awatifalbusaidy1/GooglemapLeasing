@@ -1,190 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Maps Qatar</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPJsDKW08BaA8Am1CCoVGum6jOgcF893Q&callback=initMap" async defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Maps Qatar</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPJsDKW08BaA8Am1CCoVGum6jOgcF893Q&callback=initMap" async defer></script>
+
 </head>
+
 <body>
-    <input id="search-box" type="text" placeholder="Search a project">
-    <div id="map"></div>
-    <div id="guide-box">
-        <h3>Pin Guide</h3>
-        <div class="guide-item">
-            <img src="images/sales.png" alt="Sale Icon"> Sale
-        </div>
-        <!-- <div class="guide-item">
-            <img src="images/leasing.png" alt="Lease Icon"> Leasing
-        </div>
-        <div class="guide-item">
-            <img src="images/propertymanagement.png" alt="CPQ"> CPQ Managed Properties
-        </div>
-        <div class="guide-item">
-            <img src="images/thirdparty.png" alt="Third Party Icon"> Leasing Third Party
-        </div> -->
-        
+  <div class="search-wrap">
+    <input id="search-box" type="text" placeholder="Search a project" autocomplete="off" />
+    <div id="suggestions" class="suggestions"></div>
+  </div>
+
+  <div id="map"></div>
+
+  <div id="guide-box">
+    <h3>Pin Guide</h3>
+    <div class="guide-item">
+      <img src="images/leasing.png" alt="Sale Icon" /> Leasing
     </div>
-    <script>
-        let map, markers = [];
-        
-        function initMap() {
-            
-            map = new google.maps.Map(document.getElementById("map"), {
-                center: { lat: 25.276987, lng: 51.520008 }, 
-                zoom: 9, 
-                mapTypeId: "roadmap",
-                zoomControl: false, 
-                streetViewControl: false, 
-                styles: [
-            // { featureType: "all", elementType: "labels", stylers: [{ visibility: "off" }] }, //To remove the labels in the map
+  </div>
+
+  <script>
+    let map;
+    let markers = []; // { marker, title, pin, infoWindow }
+    let allPins = [];
+    let activeIndex = -1;
+
+    function initMap() {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 25.276987, lng: 51.520008 },
+        zoom: 9,
+        mapTypeId: "roadmap",
+        zoomControl: false,
+        streetViewControl: false,
+        styles: [
+          // { featureType: "all", elementType: "labels", stylers: [{ visibility: "off" }] },
         ],
-            });
-    
-            fetch("pins.json") // Load pin data
-                .then(response => response.json())
-                .then(data => {
-                    data.pins.forEach(pin => {
-                        addMarker(pin);
-                    });
-                });
-    
-            document.getElementById("search-box").addEventListener("input", searchPins);
-            
-        }
-        
-    
-        function addMarker(pin) {
-            const icons = {
-        "sale": {
-            url: "images/sales.png",
-            scaledSize: new google.maps.Size(50, 50) // Adjust size here
-        },
-        "lease": {
-            url: "images/leasing.png",
-            scaledSize: new google.maps.Size(30, 30)
-        },
-        "propertymanagement": {
-            url: "images/propertymanagement.png",
-            scaledSize: new google.maps.Size(30, 30)
-        },
-        "thirdparty": {
-            url: "images/thirdparty.png",
-            scaledSize: new google.maps.Size(30,30)
-        }
-        
-    };
+      });
 
-    const marker = new google.maps.Marker({
-    position: { lat: pin.lat, lng: pin.lng },
-    map,
-    icon: icons[pin.type.toLowerCase()] || icons["lease"],
-    title: pin.title
-});
-             console.log(marker,"Marker: ");
+      // Load pins ONCE (no duplicate fetch)
+      fetch("pins.json")
+        .then((r) => r.json())
+        .then((data) => {
+          allPins = data.pins || [];
+          allPins.forEach((pin) => addMarker(pin));
+        })
+        .catch((err) => console.error("Failed to load pins.json:", err));
 
-             const infoWindow = new google.maps.InfoWindow({
-                content: `
-                    <div style="max-width: 300px;">
-                        <img src="${pin.image}" alt="${pin.title}" style="width:100%; height:auto; border-radius: 8px;">
-                        <h3 style="margin: 10px 0;">${pin.title}</h3>
-                        <p><b>Location:</b> ${pin.description}</p>
-                        <p><b>Starting Price:</b> ${pin.price}</p>
-                        <p><b>Famous Landmark:</b> ${pin.landmarks}</p>
-                        <a href="${pin.link}" target="_blank" style="color: blue; text-decoration: underline;">Project in Salesforce</a>
-                    </div>
-                `
-            });
+      const input = document.getElementById("search-box");
+      input.addEventListener("input", onSearchInput);
+      input.addEventListener("keydown", onSearchKeyDown);
 
-            // Open info window on marker click
-            marker.addListener("click", () => {
-                infoWindow.open(map, marker);
-                setTimeout(() => {
-                    let closeButton = document.querySelector(".gm-ui-hover-effect");
-                    if (closeButton) {
-                        closeButton.style.backgroundColor = "white"; 
-                        closeButton.style.borderRadius = "50%"; 
-                        closeButton.style.width = "25px";
-                        closeButton.style.height = "25px";
-                        closeButton.style.display = "flex";
-                        closeButton.style.alignItems = "center";
-                        closeButton.style.justifyContent = "center";
-                        closeButton.style.boxShadow = "0 2px 5px rgba(0, 0, 0, 0.2)";
+      // Close suggestions when clicking outside
+      document.addEventListener("click", (e) => {
+        const wrap = document.querySelector(".search-wrap");
+        if (wrap && !wrap.contains(e.target)) hideSuggestions();
+      });
+    }
 
-                        let closeIcon = closeButton.querySelector("img");
-                        if (closeIcon) {
-                            closeIcon.remove(); 
-                        }
+    function addMarker(pin) {
+      const icons = {
+        sale: { url: "images/sales.png", scaledSize: new google.maps.Size(50, 50) },
+        lease: { url: "images/leasing.png", scaledSize: new google.maps.Size(30, 30) },
+        propertymanagement: { url: "images/propertymanagement.png", scaledSize: new google.maps.Size(30, 30) },
+        thirdparty: { url: "images/thirdparty.png", scaledSize: new google.maps.Size(30, 30) },
+      };
 
-                        closeButton.innerHTML = "✖"; 
-                        closeButton.style.fontSize = "16px";
-                        closeButton.style.fontWeight = "bold";
-                        closeButton.style.color = "black";
-                        closeButton.style.cursor = "pointer";
-                    }
-                }, 200);
-});
-            
-            const landmarkLabel = new google.maps.Marker({
-        position: { lat: pin.lat + 0.001, lng: pin.lng }, 
+      const typeKey = (pin.type || "").toLowerCase();
+
+      const marker = new google.maps.Marker({
+        position: { lat: pin.lat, lng: pin.lng },
         map,
-        icon: {
-            path: google.maps.SymbolPath.CIRCLE, 
-            scale: 0
-        },
-        label: {
-            text: pin.landmark, 
+        icon: icons[typeKey] || icons.lease,
+        title: pin.title || "",
+      });
+
+      const infoWindow = new google.maps.InfoWindow({
+        content: `
+          <div style="max-width: 300px;">
+            <img src="${pin.image || ""}" alt="${escapeHtml(pin.title || "")}"
+              style="width:100%; height:auto; border-radius: 8px;">
+            <h3 style="margin: 10px 0;">${escapeHtml(pin.title || "")}</h3>
+            <p><b>Starting Price:</b> ${escapeHtml(pin.price || "")}</p>
+            <p><b>Famous Landmark:</b> ${escapeHtml(pin.landmarks || pin.landmark || "")}</p>
+            ${
+              pin.link
+                ? `<a href="${pin.link}" target="_blank"
+                    style="color: blue; text-decoration: underline;">Project in Salesforce</a>`
+                : ""
+            }
+          </div>
+        `,
+      });
+
+      marker.addListener("click", () => {
+        // Close other info windows
+        markers.forEach((m) => m.infoWindow.close());
+        infoWindow.open(map, marker);
+
+        // Style the close button after it appears
+        setTimeout(() => {
+          const closeButton = document.querySelector(".gm-ui-hover-effect");
+          if (closeButton) {
+            closeButton.style.backgroundColor = "white";
+            closeButton.style.borderRadius = "50%";
+            closeButton.style.width = "25px";
+            closeButton.style.height = "25px";
+            closeButton.style.display = "flex";
+            closeButton.style.alignItems = "center";
+            closeButton.style.justifyContent = "center";
+            closeButton.style.boxShadow = "0 2px 5px rgba(0, 0, 0, 0.2)";
+
+            const closeIcon = closeButton.querySelector("img");
+            if (closeIcon) closeIcon.remove();
+
+            closeButton.innerHTML = "✖";
+            closeButton.style.fontSize = "16px";
+            closeButton.style.fontWeight = "bold";
+            closeButton.style.color = "black";
+            closeButton.style.cursor = "pointer";
+          }
+        }, 200);
+      });
+
+      // Optional label marker (uses pin.landmark if present)
+      if (pin.landmark) {
+        new google.maps.Marker({
+          position: { lat: pin.lat + 0.001, lng: pin.lng },
+          map,
+          icon: { path: google.maps.SymbolPath.CIRCLE, scale: 0 },
+          label: {
+            text: pin.landmark,
             color: "#000",
             fontSize: "12px",
-            fontWeight: "bold"
-        }
-    });
-
-            markers.push({ marker, title: pin.title.toLowerCase() });
-}
-
-    
-function searchPins() {
-    const query = document.getElementById("search-box").value.toLowerCase();
-    let found = false;
-
-    markers.forEach(({ marker, title }) => {
-        if (title.includes(query)) {
-            marker.setVisible(true);
-
-            // Zoom into the matched marker
-            map.setCenter(marker.getPosition()); 
-            map.setZoom(18); 
-
-            found = true;
-        } else {
-            marker.setVisible(false);
-            //  map = new google.maps.Map(document.getElementById("map"), {
-            //     center: { lat: 25.276987, lng: 51.520008 }, 
-            //     zoom: 9, 
-            //     mapTypeId: "roadmap",
-            //     zoomControl: false, 
-            //     streetViewControl: false,})
-            
-        }
-    });
-
-    if (!found) {
-        alert("No matching pin found.");
-        
-    }
-}
-
-fetch("pins.json")
-    .then(response => response.json())
-    .then(data => {
-        console.log("Pins loaded:", data); // ✅ Add this
-        data.pins.forEach(pin => {
-            addMarker(pin);
+            fontWeight: "bold",
+          },
         });
-    });
+      }
 
-    </script>
+      markers.push({
+        marker,
+        title: (pin.title || "").toLowerCase(),
+        pin,
+        infoWindow,
+      });
+    }
+
+    // ---------------- Autocomplete Suggestions (STARTS WITH) ----------------
+    function onSearchInput(e) {
+      const query = e.target.value.trim().toLowerCase();
+
+      // If empty: show all markers and reset map
+      if (!query) {
+        markers.forEach((m) => m.marker.setVisible(true));
+        map.setCenter({ lat: 25.276987, lng: 51.520008 });
+        map.setZoom(9);
+        hideSuggestions();
+        return;
+      }
+
+      // Only projects STARTING with typed letters (m -> Musheireb, Msheireb, etc.)
+      const matches = allPins
+        .filter((p) => (p.title || "").toLowerCase().startsWith(query))
+        .slice(0, 8);
+
+      // Optional: show/hide markers based on typing (startsWith)
+      markers.forEach((m) => m.marker.setVisible(m.title.startsWith(query)));
+
+      renderSuggestions(matches);
+    }
+
+    function renderSuggestions(items) {
+      const box = document.getElementById("suggestions");
+      activeIndex = -1;
+
+      if (!items.length) {
+        box.style.display = "none";
+        box.innerHTML = "";
+        return;
+      }
+
+      box.innerHTML = items
+        .map(
+          (p, idx) => `
+            <div class="suggestion-item" data-index="${idx}">
+              ${escapeHtml(p.title || "")}
+            </div>
+          `
+        )
+        .join("");
+
+      box.style.display = "block";
+
+      box.querySelectorAll(".suggestion-item").forEach((el) => {
+        el.addEventListener("click", () => {
+          const title = el.textContent.trim();
+          selectProjectByTitle(title);
+        });
+      });
+    }
+
+    function onSearchKeyDown(e) {
+      const box = document.getElementById("suggestions");
+      if (box.style.display !== "block") return;
+
+      const items = Array.from(box.querySelectorAll(".suggestion-item"));
+      if (!items.length) return;
+
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        activeIndex = (activeIndex + 1) % items.length;
+        setActive(items);
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        activeIndex = (activeIndex - 1 + items.length) % items.length;
+        setActive(items);
+      } else if (e.key === "Enter") {
+        e.preventDefault();
+        if (activeIndex >= 0) items[activeIndex].click();
+        else selectProjectByTitle(document.getElementById("search-box").value);
+      } else if (e.key === "Escape") {
+        hideSuggestions();
+      }
+    }
+
+    function setActive(items) {
+      items.forEach((el, i) => el.classList.toggle("active", i === activeIndex));
+      items[activeIndex].scrollIntoView({ block: "nearest" });
+    }
+
+    function selectProjectByTitle(title) {
+      const query = (title || "").trim().toLowerCase();
+
+      const found =
+        markers.find((m) => m.title === query) ||
+        markers.find((m) => m.title.startsWith(query));
+
+      if (!found) return;
+
+      document.getElementById("search-box").value = found.pin.title || "";
+
+      // Show only selected marker (optional)
+      markers.forEach((m) => m.marker.setVisible(m === found));
+
+      map.setCenter(found.marker.getPosition());
+      map.setZoom(18);
+
+      google.maps.event.trigger(found.marker, "click");
+      hideSuggestions();
+    }
+
+    function hideSuggestions() {
+      const box = document.getElementById("suggestions");
+      box.style.display = "none";
+      box.innerHTML = "";
+      activeIndex = -1;
+    }
+
+    function escapeHtml(str) {
+      return String(str).replace(/[&<>"']/g, (m) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;",
+      }[m]));
+    }
+  </script>
 </body>
 </html>

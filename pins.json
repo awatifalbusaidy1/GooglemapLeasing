@@ -1,147 +1,324 @@
 {
-    "pins": [
-      {
-        "lat": 25.437576, 
-        "lng": 51.520764,
-        "title": "Voya",
-        "image": "images/voya.png",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,390,000</li><li><strong>2 BDR:</strong> QAR 1,970,000</li> <li><strong>3 BDR:</strong> QAR 3,100,000</li> <li><strong>4 BDR:</strong> QAR 6,470,000</li> </ul>",
-        "landmarks": "Within few steps to Waterfront Beach and a short drive to Meryal Water Park, Lusail Stadium, Boulevard Street and Vendome Mall.",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XonyMAC/view",
-        "type": "sale"
-      } ,
-      
-      {
-        "lat": 25.322557,
-        "lng": 51.456031,
-        "title": "Vita",
-        "image": "images/vita.png",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>6 BDR + Maidroom:</strong> QAR 4,394,3769</li></ul>",
-        "landmarks": "Perfectly placed just 7 mins away from Education City, close to Sidra Medicine, Qatar Foundation, multiple malls (such as Q Mall, Ezdan Mall, Gulf Mall & Landmark Mall) with a nearby metro station.",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XnV3MAK/view",
-        "type": "sale"
-      },
-
-      {
-        "lat": 25.414053,
-        "lng": 51.426967,
-        "title": "The Grid",
-        "image": "images/thegrid.png",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>5 BDR + Maidroom:</strong> QAR 4,530,113</li></ul>",
-        "landmarks": "The Grid offers standalone villas with private pools and gardens in a gated community just minutes away from Doha Festival City Mall. These villas are modern in design and tailored for families, conveniently located on Shamal Road, providing easy access to Doha via the nearby Expressway",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XnU5MAK/view",
-        "type": "sale"
-      },
-      {
-        "lat": 25.423827, 
-        "lng": 51.507667,
-        "title": "Seef",
-        "image": "images/seef.png",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,390,000</li><li><strong>2 BDR:</strong> QAR 1,970,000</li> <li><strong>3 BDR:</strong> QAR 3,100,000</li> <li><strong>4 BDR:</strong> QAR 6,470,000</li> </ul>",
-        "landmarks": "",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XontMAC/view",
-        "type": "sale"
-      },
-      {
-        "lat": 25.396172, 
-        "lng": 51.520214,
-        "title": "Marina 25",
-        "image": "images/25marina.jpg",
-        "price": "",
-        "landmarks": "",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XnUZMA0/view",
-        "type": "sale"
-      },
-      {
-        "lat": 25.393547,
-        "lng": 51.523993,
-        "title": "Marina 12",
-        "image": "images/12marina.jpg",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>2 BDR:</strong> QAR 2,690,088</li>",
-        "landmarks": "Walking distance from metro link and Lusail Marina Corniche",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XnUeMAK/view",
-        "type": "sale"
-      },
-
-      {
-        "lat": 25.394293, 
-        "lng": 51.522304,
-        "title": "Marina 09",
-        "image": "images/marina09.jpg",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,369,271</li><li><strong>2 BDR:</strong> QAR 1,816,647</li><li><strong>3 BDR:</strong> QAR 2,153,414</li>",
-        "landmarks": "Conveniently located near the Tram Metro Station, Lusail Marina, coffee shops, and restaurants, the property is just 5 minutes from Vendome Mall, 7 minutes from The Pearl, and 10 minutes to Doha West Bay.",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000Ixw52AC/view",
-        "type": "sale"
-      },
-      {
-        "lat": 25.4115520, 
-        "lng": 51.5027157,
-        "title": "Le Mirage Vida",
-        "image": "images/vida.jpg",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,133,734</li><li><strong>2 BDR:</strong> QAR 2,147,149</li><li><strong>3 BDR:</strong> QAR 2,895,216</li>",
-        "landmarks": "Next to Lusail Boulevard and Tram Station",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XoC9MAK/view",
-        "type": "sale"
-      },
-      {
-        "lat": 25.411550, 
-        "lng": 51.502519,
-        "title": "Le Mirage Hills",
-        "image": "images/hills.jpg",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,487,538</li><li><strong>2 BDR:</strong> QAR 2,915,760</li>",
-        "landmarks": "Next to Lusail Boulevard and Tram Station",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XoC9MAK/view",
-        "type": "sale"
-      },
-      {
-        "lat": 25.411550, 
-        "lng": 51.502519,
-        "title": "Bliss Residence",
-        "image": "images/bliss.jpg",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,112,003</li><li><strong>2 BDR:</strong> QAR 1,875,207</li><li><strong>3 BDR:</strong> QAR 1,966,695</li>",
-        "landmarks": "Prime location near Lusail Boulevard, Place Vendome, Family Park, and easy access to Lusail Expressway",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000pQLS2A2/view",
-        "type": "sale"
-      },
-      {
-        "lat": 25.398882,  
-        "lng": 51.503988,
-        "title": "Apex Lusail Commercial Complex",
-        "image": "images/apex.jpg",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>QAR 1,650,000</strong> ",
-        "landmarks": "Located in Energy City, Lusail, offering convenient access to major roads, Place Vendôme Mall, Lusail Expressway, the Tram Station, and Al Khor Coastal Road​.",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000odB32AI/view",
-        "type": "sale"
-      },
-      {
-        "lat": 25.3236883,    
-        "lng": 51.5162666,
-        "title": "35 WestBay Luxury Apartments",
-        "image": "images/35westbay.jpg",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>1 BDR:</strong> QAR 1,620,000</li><li><strong>2 BDR:</strong> QAR 2,315,000</li><li><strong>3 BDR:</strong> QAR 3,374,000</li>",
-        "landmarks": "Easy access to major roads, including Corniche Street and the Lusail Expressway. Located in West Bay",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000GZ3R2AW/view",
-        "type": "sale"
-      },
-      {
-        "lat": 25.2413611,    
-        "lng": 51.4948889,
-        "title": "Bliss Gardens",
-        "image": "images/Blissgardens.jpg",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>5 BDR:</strong> QAR 3,880,000</li>",
-        "landmarks": "Own a high-end, semi-furnished 5-bedroom plus maid's room villa in a gated community with just 10% down payment. Located in Abu Hamour, close to international schools and major malls, offering privacy, comfort, and convenience.",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000015aYX2AY/view",
-        "type": "sale"
-      },
-         {
-        "lat": 25.42325,    
-        "lng": 51.4984251,
-        "title": "Bliss Residences 2 Fox Hills",
-        "image": "images/blissresidence2.jpg",
-        "price": "<strong>Starting Price:</strong><br><ul> <li><strong>2 BDR:</strong> QAR 1,430,000</li><li><strong>3 BDR:</strong> QAR 1,777,000</li>",
-        "landmarks": "Prime location near Lusail Boulevard, Place Vendome, Crescent Park, and easy access to Lusail Expressway",
-        "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000001c6ev2AA/view",
-        "type": "sale"
-      }
-
-]}
+  "pins": [
+    {
+      "lat": 25.323782,
+      "lng": 51.531342,
+      "title": "Qabila Westbay Hotel",
+      "image": "images/Qabila Westbay Hotel.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>Studio 6300</li></ul>",
+      "landmarks": "located on Corniche Road in the prestigious West Bay business district of City Center Doha",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XpvP/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.323782,
+      "lng": 51.531342,
+      "title": "The Bentley Luxury Hotel & Suites",
+      "image": "images/The Bentley Luxury Hotel & Suites.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 9000, 2BR:</li></ul>",
+      "landmarks": "Situated a mere 5-minute drive from City Center Mall, Lusail Expressway, Corniche, and other sought-after destinations, you can relish effortless access to all your favorite spots.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xokz/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.371112,
+      "lng": 51.537479,
+      "title": "Porto Arabia 24 (PA24 Lease)",
+      "image": "images/Porto Arabia 24 (PA24 Lease).jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR: 6,000, 3 BR 12,000</li></ul>",
+      "landmarks": "",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xpv0/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.392319,
+      "lng": 51.525515,
+      "title": "Marina 16",
+      "image": "images/Marina 16.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:8,000, 2 BR: 11,000, 3 BR 13,000</li></ul>",
+      "landmarks": "The unit is very proximate to Qatar’s big shopping malls: Also, it is only 7 minutes drive to The Pearl and 15 minutes to Doha West Bay.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XolO/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.419628,
+      "lng": 51.423579,
+      "title": "Paradise Village – Ramco",
+      "image": "images/Paradise Village – Ramco.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>2 BR:6,000, 3 BR: 9,000</li></ul>",
+      "landmarks": "Umm Salal Mohammed, This villa is close to schools, parks, supermarkets, and main city access routes.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000Hdg52AC/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.2854562,
+      "lng": 51.5221238,
+      "title": "Msheireb X03 Building",
+      "image": "images/Msheireb X03 Building.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>studio 7,335, 1 BR: 8014, 2 BR:11,205,3 BR: 14,106</li></ul>",
+      "landmarks": "conveniently located near Galleria Mall, Barahat Msheireb, and within walking distance of Monoprix, Central Msheireb Metro Station, Souq Waqif, and the Corniche.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000Kycj/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.237804,
+      "lng": 51.503918,
+      "title": "Seville Gardens (Lease)",
+      "image": "images/Seville Gardens (Lease).jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>4 BR: 18,000, 5 BR 20,000</li></ul>",
+      "landmarks": "This villa is with quick access to Salwa Road, Doha Expressway and Mamoura Mall.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XnRY/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.39059,
+      "lng": 51.52462,
+      "title": "Nayef Tower",
+      "image": "images/Nayef Tower.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>2 BR: 10,286,, 3 BR 12,923</li></ul>",
+      "landmarks": "in prime location of Lusail, Marina District. Conveniently located near Tram Metro Station, Lusail Marina Promenade, Lusail Food Area, 5 mins from Vendome Mall, The Pearl Island and 10 minutes to Doha West Bay.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xoku/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.270671,
+      "lng": 51.437481,
+      "title": "Al Mana Hills Compound",
+      "image": "images/Al Mana Hills Compound.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>5 BR: 12,857</li></ul>",
+      "landmarks": "Located in a very strategic location that offers easy access to main road, Villagio Shopping Mall and Aspire.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xomq/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.371112,
+      "lng": 51.537479,
+      "title": "Porto Arabia Tower 12 - Paramount",
+      "image": "images/Porto Arabia Tower 12 - Paramount.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:15,000, 3 BR: 17,000</li></ul>",
+      "landmarks": "trategically located in the Pearl",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XpvZ/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.249868,
+      "lng": 51.471391,
+      "title": "West Walk",
+      "image": "images/West Walk.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:6,900, 2 BR: 8,400, 4 BR: 13,400</li></ul>",
+      "landmarks": "n Al Waab within walking distance of offices, restaurants, cinemas, entertainment, a shopping mall, and almost everything you desire.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xojm/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.39059,
+      "lng": 51.52462,
+      "title": "Marina 33 (Lease)",
+      "image": "images/Marina 33 (Lease).jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 7,000, 2BR: 8,500</li></ul>",
+      "landmarks": "",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000HQMH/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.368622,
+      "lng": 51.557201,
+      "title": "Viva Bahriya 8 (VB8 Lease)",
+      "image": "images/Viva Bahriya 8 (VB8 Lease).jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 8,250</li></ul>",
+      "landmarks": "",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xq34/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.39059,
+      "lng": 51.52462,
+      "title": "Marina 33 (Lease)",
+      "image": "images/Marina 33 (Lease).jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:7,000, 2 BR: 8500</li></ul>",
+      "landmarks": "",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000HQMH/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.276826,
+      "lng": 51.516037,
+      "title": "Riviera Residences",
+      "image": "images/Riviera Residences.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>2 BR:7,846,, 3 BR: 9230</li></ul>",
+      "landmarks": "This compound is close to Ramada signal and with quick access to Salwa Road.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xpxp/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.390809,
+      "lng": 51.522788,
+      "title": "Burj Damac Marina (Lease)",
+      "image": "images/Burj Damac Marina (Lease).jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 7,000, 2BR: 8,500</li></ul>",
+      "landmarks": "the unit is very proximate to Qatarís big shopping malls: Also, it is only 7 minutes drive to The Pearl and 15 minutes to Doha West Bay.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000Q7FZ/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.378283,
+      "lng": 51.537231,
+      "title": "Gewan Island (Lease)",
+      "image": "images/Gewan Island (Lease).jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 8,000, 2BR: 12,461</li></ul>",
+      "landmarks": "In the exclusive Gewan Island at The Pearl Island.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000WBl7/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.368622,
+      "lng": 51.557201,
+      "title": "Aquastone Towers",
+      "image": "images/Aquastone Towers.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>studio 75,487, 1 BR: 8,914, 2 BR:13,114,3 BR: 22,371</li></ul>",
+      "landmarks": "The Pearl Island",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xojh/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.39059,
+      "lng": 51.52462,
+      "title": "Mamsha Bay",
+      "image": "images/Mamsha Bay.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>studio 6,923, 1 BR: 7,846, 2 BR:11,000,3 BR: 14,538</li></ul>",
+      "landmarks": "residential tower offers breathtaking views of the Arabian Gulf, West Bay Lagoon, and the Ritz-Carlton Hotel and Marina",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xq2C/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.2855008,
+      "lng": 51.5280114,
+      "title": "I22 Msheireb Downtown",
+      "image": "images/I22 Msheireb Downtown.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:8,460, 2 BR: 10,935, 3 BR: 13,500</li></ul>",
+      "landmarks": "conveniently located near Galleria Mall, Barahat Msheireb, and within walking distance of Monoprix, Central Msheireb Metro Station, Souq Waqif, and the Corniche.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000cb09/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.3053409,
+      "lng": 51.4323947,
+      "title": "C View Residence",
+      "image": "images/C View Residence.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:8,650, 2 BR: 12,000, 3 BR: 16,000</li></ul>",
+      "landmarks": "Lusail Marina Promenade and Lusail Stadium. Downtown Doha is a 15-minute drive away.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000VtrR/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.372844,
+      "lng": 51.559838,
+      "title": "AP29 Building Westpac",
+      "image": "images/AP29 Building Westpac.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>2 BR: 9,000</li></ul>",
+      "landmarks": "",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000dZU9/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.282687,
+      "lng": 51.55022,
+      "title": "FJ Building 5",
+      "image": "images/FJ Building 5.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>2 BR: 7,800</li></ul>",
+      "landmarks": "Umm Ghwailina area",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xomg/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.352207,
+      "lng": 51.433528,
+      "title": "Tala Residence",
+      "image": "images/Tala Residence.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR: 5,00, 7 BR:  12,500</li></ul>",
+      "landmarks": "he compound is walking distance from Al Gharrafa park and 10 minutes drive from Doha Expressway and Doha Festival Mall.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xq2k/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.073606,
+      "lng": 51.493307,
+      "title": "Birkat Al Awamer Logistics Park Shop",
+      "image": "images/Birkat Al Awamer Logistics Park Shop.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>shop</li></ul>",
+      "landmarks": "Brand new commercial complex strategically located in Birkat Al Awamer, Al Wakrah few mins drive from Hamad Port and 30 mins from Doha City.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xpv5/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.249868,
+      "lng": 51.471391,
+      "title": "Blue Polygon Complex",
+      "image": "images/Blue Polygon Complex.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>Office  Space</li></ul>",
+      "landmarks": "Strategically located in Al Waab is 100sqm fully fitted office space for rent with quick access to Salwa Road and West Walk.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000Xq1n/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.3931581,
+      "lng": 51.5228304,
+      "title": "Marina 12 (Lease)",
+      "image": "images/Marina 12 (Lease).jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:7,500, 2 BR: 10,000</li></ul>",
+      "landmarks": "",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000ynPF/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.285499,
+      "lng": 51.510317,
+      "title": "M Residence 2",
+      "image": "images/M Residence 2.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:5,000, 3 BR: 7,600</li></ul>",
+      "landmarks": "The building is strategically located 5 mins from Hamad Hospital and 10mins from Corniche Road",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000qyUj/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.266322,
+      "lng": 51.526388,
+      "title": "Abraj Inn - Al Mansoura",
+      "image": "images/Abraj Inn - Al Mansoura.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 5,000</li></ul>",
+      "landmarks": "This property is near Family Park, Al Meera - Mansoura and with quick access to C-ring Road.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000bMfu/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.3284413,
+      "lng": 51.5075538,
+      "title": "Vyra Suites West Bay (WPC 196)",
+      "image": "images/Vyra Suites West Bay (WPC 196).jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:7,846, 2 BR: 9,692, 3 BR 12,923</li></ul>",
+      "landmarks": "Located within walking distance from City Center Mall and close to the beach",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000001P8TF/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.276834,
+      "lng": 51.543568,
+      "title": "A&A Building 16",
+      "image": "images/A&A Building 16.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:5,000, 2 BR: 6,000</li></ul>",
+      "landmarks": "Ideally located near Airport Road, B-Ring Road, and C-Ring Road, this residence ensures quick connectivity to all parts of Doha",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000001ucwT/view",
+      "type": "leasing"
+    },
+    {
+      "lat": 25.3940001,
+      "lng": 51.5226974,
+      "title": "FJ9 Tower - Ramaco",
+      "image": "images/FJ9 Tower - Ramaco.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:11,000, 2 BR: 12,960</li></ul>",
+      "landmarks": "Conveniently located near Tram Metro Station, Lusail Marina Promenade, Lusail Food Area, 5 mins from Vendome Mall, The Pearl Island and 10 minutes to Doha West Bay.",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000vyCN/view",
+      "type": "leasing"
+    }
+  ]
+}
