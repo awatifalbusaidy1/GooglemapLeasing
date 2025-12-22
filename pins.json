@@ -51,6 +51,16 @@
       "type": "leasing"
     },
     {
+      "lat": 25.3228215,
+      "lng": 51.5280262,
+      "title": "35 WestBay Luxury Apartments (Lease)",
+      "image": "images/35westbay.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:9,000, 1+Guest BR: 9,250, 2 BR: 13,500</li></ul>",
+      "landmarks": "Located in Westbay near decc metro station and gatemall",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000001NHIv2AO/view",
+      "type": "leasing"
+    },
+    {
       "lat": 25.2854562,
       "lng": 51.5221238,
       "title": "Msheireb X03 Building",
