@@ -40,6 +40,14 @@ function closeAllPopups() {
   markers.forEach((m) => m.infoWindow.close());
 }
 
+// ✅ Normalize text for better search (BO4, OA1, VB23, etc.)
+function normalizeText(s) {
+  return String(s || "")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 25.276987, lng: 51.520008 },
@@ -127,7 +135,7 @@ function addMarker(pin) {
     marker,
     infoWindow,
     pin,
-    title: (pin.title || "").toLowerCase(),
+    title: normalizeText(pin.title),
   });
 }
 
@@ -164,14 +172,14 @@ function openProjectPopup(found) {
   }, 200);
 }
 
-// ---------------- Autocomplete Suggestions (STARTS WITH) ----------------
+// ---------------- Autocomplete Suggestions (SMART SEARCH) ----------------
 function onSearchInput(e) {
-  const query = e.target.value.trim().toLowerCase();
+  const raw = e.target.value.trim();
 
   // ✅ If empty: show all markers, reset map, and CLOSE popup
-  if (!query) {
+  if (!raw) {
     markers.forEach((m) => m.marker.setVisible(true));
-    closeAllPopups();  // ✅ closes the infoWindow
+    closeAllPopups();
     map.setCenter({ lat: 25.276987, lng: 51.520008 });
     map.setZoom(9);
     hideSuggestions();
@@ -179,24 +187,37 @@ function onSearchInput(e) {
     return;
   }
 
+  const q = normalizeText(raw);
+  const qCompact = q.replace(/[\s-]/g, ""); // remove spaces & dashes
+
+  // ✅ match anywhere (so BO4 finds "Bin Omran 28 - BO4")
   const matches = allPins
-    .filter((p) => (p.title || "").toLowerCase().startsWith(query))
+    .filter((p) => {
+      const t = normalizeText(p.title);
+      const tCompact = t.replace(/[\s-]/g, "");
+      return t.includes(q) || tCompact.includes(qCompact);
+    })
     .slice(0, 8);
 
-  markers.forEach((m) => m.marker.setVisible(m.title.startsWith(query)));
+  // Show/hide markers based on includes
+  markers.forEach((m) => {
+    const t = m.title;
+    const tCompact = t.replace(/[\s-]/g, "");
+    m.marker.setVisible(t.includes(q) || tCompact.includes(qCompact));
+  });
 
   renderSuggestions(matches);
 
-  // ✅ Auto-open popup when exact match OR only 1 match
+  // ✅ Auto-open popup when:
+  // - exact match exists, OR
+  // - only 1 match remains
   if (!matches.length) return;
 
-  const exact = matches.find((p) => (p.title || "").toLowerCase() === query);
+  const exact = matches.find((p) => normalizeText(p.title) === q);
   const candidate = exact || (matches.length === 1 ? matches[0] : null);
 
   if (candidate) {
-    const candidateTitle = (candidate.title || "").toLowerCase();
-
-    // prevent reopening on every keystroke
+    const candidateTitle = normalizeText(candidate.title);
     if (lastAutoOpenedTitle !== candidateTitle) {
       lastAutoOpenedTitle = candidateTitle;
       selectProjectByTitle(candidate.title);
@@ -264,18 +285,17 @@ function setActive(items) {
 }
 
 function selectProjectByTitle(title) {
-  const query = (title || "").trim().toLowerCase();
+  const q = normalizeText(title);
+  const qCompact = q.replace(/[\s-]/g, "");
 
   const found =
-    markers.find((m) => m.title === query) ||
-    markers.find((m) => m.title.startsWith(query));
+    markers.find((m) => m.title === q) ||
+    markers.find((m) => m.title.includes(q)) ||
+    markers.find((m) => m.title.replace(/[\s-]/g, "").includes(qCompact));
 
   if (!found) return;
 
   document.getElementById("search-box").value = found.pin.title || "";
-
-  // If you want ONLY the selected marker visible, uncomment this:
-  // markers.forEach((m) => m.marker.setVisible(m === found));
 
   hideSuggestions();
   openProjectPopup(found);
