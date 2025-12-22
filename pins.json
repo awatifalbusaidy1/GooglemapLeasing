@@ -321,6 +321,16 @@
       "type": "leasing"
     },
     {
+      "lat": 25.266185,
+      "lng": 51.525654,
+      "title": "A&H Hotel Apartment",
+      "image": "images/A&H.jpg",
+      "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:6,500, 2 BR: 8,000</li></ul>",
+      "landmarks": "Located in Almansoura",
+      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JJ9000000XokaMAC/view",
+      "type": "leasing"
+    },
+    {
       "lat": 25.3940001,
       "lng": 51.5226974,
       "title": "FJ9 Tower - Ramaco",
