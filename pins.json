@@ -440,6 +440,266 @@
     "landmarks": "Commercial Zone",
     "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM000000Hdv5/view",
     "type": "leasing"
+  },
+  {
+    "lat": 25.3631012,
+    "lng": 51.5582337,
+    "title": "Al Mutahidah Tower",
+    "image": "images/Al Mutahidah Tower.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>Studio: 7500</li><li>1BR: 9500</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OT1/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.384569,
+    "lng": 51.526282,
+    "title": "Murano Tower (Lease)",
+    "image": "images/Murano Tower (Lease).jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>2BR: 8200</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTI/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.3053409,
+    "lng": 51.4323947,
+    "title": "C View Residence",
+    "image": "images/C View Residence.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 9000</li><li>2BR: 12000</li><li>3BR: 16000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSp/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.287955,
+    "lng": 51.52487,
+    "title": "A10 Msheireb Downtown",
+    "image": "images/A10 Msheireb Downtown.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>45000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSk/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.3931581,
+    "lng": 51.5228304,
+    "title": "Marina 12 (Lease)",
+    "image": "images/Marina 12 (Lease).jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 8500</li><li>2BR: 12500</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTD/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.3906678,
+    "lng": 51.5171974,
+    "title": "Rosewood Residences Doha",
+    "image": "images/Rosewood Residences Doha.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 16000</li><li>2BR: 22000</li><li>3BR: 28000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTW/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.3228215,
+    "lng": 51.5280262,
+    "title": "35 WestBay Luxury Apartments (Lease)",
+    "image": "images/35 WestBay Luxury Apartments (Lease).jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>2 BR: 11000</li><li>3 BR: 14000</li><li>1 BR: 9500</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSl/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.270395,
+    "lng": 51.52112,
+    "title": "Muntazah 38 - MZ1",
+    "image": "images/Muntazah 38 - MZ1.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 7000</li><li>2BR:8500</li><li>3BR:10000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTJ/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.2766839,
+    "lng": 51.4960456,
+    "title": "Al Sadd 36 - AS1",
+    "image": "images/Al Sadd 36 - AS1.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>2BR: 5500</li><li>3BR: 6500</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSn/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.165206,
+    "lng": 51.604923,
+    "title": "Al Wakra 29 - AW1",
+    "image": "images/Al Wakra 29 - AW1.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>2BR: 5500</li><li>3BR: 6500</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSh/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.248812,
+    "lng": 51.556357,
+    "title": "Old Airport 16 - OA1",
+    "image": "images/Old Airport 16 - OA1.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>2BR: 5000</li><li>3BR: 6000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTL/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.248812,
+    "lng": 51.556357,
+    "title": "Old Airport 43 - OA2",
+    "image": "images/Old Airport 43 - OA2.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>2BR: 5000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTP/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.253243,
+    "lng": 51.556952,
+    "title": "Old Airport 33 - OA5",
+    "image": "images/Old Airport 33 - OA5.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>2BR: 5000</li><li>3BR: 6000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTO/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.249335,
+    "lng": 51.554083,
+    "title": "Old Airport 20 - OA6",
+    "image": "images/Old Airport 20 - OA6.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 4250</li><li>2BR: 5000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTM/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.249335,
+    "lng": 51.554083,
+    "title": "Old Airport 47 - OA7",
+    "image": "images/Old Airport 47 - OA7.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>Studio: 4000</li><li>1BR: 5000</li><li>2BR: 6500</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTQ/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.2677,
+    "lng": 51.526734,
+    "title": "Mansoura 98 - M2",
+    "image": "images/Mansoura 98 - M2.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>Studio: 5500</li><li>1BR: 4750</li><li>2BR: 6500</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTG/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.270501,
+    "lng": 51.533495,
+    "title": "Najma - N1",
+    "image": "images/Najma - N1.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>2BR: 5000</li><li>3BR: 6000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTK/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.270459,
+    "lng": 51.533418,
+    "title": "Najma - COM1",
+    "image": "images/Najma - COM1.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>Office Space: 7500</li><li>Shop: 6000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTH/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.2824511,
+    "lng": 51.5098998,
+    "title": "Bin Mahmoud 51 - BM1",
+    "image": "images/Bin Mahmoud 51 - BM1.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 4750</li><li>2BR: 6000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSt/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.3030917,
+    "lng": 51.4924633,
+    "title": "Bin Omran 46 - BO3",
+    "image": "images/Bin Omran 46 - BO3.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 4500</li><li>2BR: 5000</li><li>3BR: 6500</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSr/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.3030917,
+    "lng": 51.4924633,
+    "title": "Bin Omran 28 - BO4",
+    "image": "images/Bin Omran 28 - BO4.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>2BR: 5000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSs/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.304154,
+    "lng": 51.496218,
+    "title": "Bin Omran 28 - BO5",
+    "image": "images/Bin Omran 28 - BO5.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 4000</li><li>2BR: 5000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSu/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.266185,
+    "lng": 51.525654,
+    "title": "A&H Hotel Apartments",
+    "image": "images/A&H Hotel Apartments.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 6250</li><li>2BR: 8000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSj/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.241083,
+    "lng": 51.457272,
+    "title": "Bliss Compound",
+    "image": "images/Bliss Compound.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>5BR: 13500</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSo/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.407121,
+    "lng": 51.522228,
+    "title": "Agora An Autograph Collection Hotel",
+    "image": "images/Agora An Autograph Collection Hotel.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 9000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSi/view",
+    "type": "leasing"
+  },
+  {
+    "lat": 25.288693,
+    "lng": 51.533128,
+    "title": "Souq Waqif Properties",
+    "image": "images/Souq Waqif Properties.jpg",
+    "price": "<strong>Starting Price:</strong><br><ul><li>1BR: 7000</li><li>3BR: 10000</li></ul>",
+    "landmarks": "",
+    "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OTX/view",
+    "type": "leasing"
   }
 ]
 
