@@ -51,8 +51,8 @@
       "type": "leasing"
     },
     {
-      "lat": 25.3228215,
-      "lng": 51.5280262,
+      "lat": 25.3236931,
+      "lng": 51.5206654,
       "title": "35 WestBay Luxury Apartments (Lease)",
       "image": "images/35westbay.jpg",
       "price": "<strong>Starting Price:</strong><br><ul><li>1 BR:9,000, 1+Guest BR: 9,250, 2 BR: 13,500</li></ul>",
@@ -521,16 +521,7 @@
       "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSn/view",
       "type": "leasing"
     },
-    {
-      "lat": 25.165206,
-      "lng": 51.604923,
-      "title": "Al Wakra 29 - AW1",
-      "image": "images/Al Wakra 29 - AW1.jpg",
-      "price": "<strong>Starting Price:</strong><br><ul><li>2BR: 5500</li><li>3BR: 6500</li></ul>",
-      "landmarks": "",
-      "link": "https://capstoneproperty.lightning.force.com/lightning/r/Project__c/a0JNM0000010OSh/view",
-      "type": "leasing"
-    },
+    
     {
       "lat": 25.248812,
       "lng": 51.556357,
